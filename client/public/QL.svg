@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <style>
+      .bg { fill: #ffffff; }
+      .text-blue { fill: #0d5c9d; font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: 800; }
+      .cursor-orange { fill: #f26522; stroke: #0d5c9d; stroke-width: 12; stroke-linejoin: round; stroke-linecap: round; }
+    </style>
+  </defs>
+  
+  <!-- Rounded Background Container for Favicon -->
+  <rect class="bg" x="16" y="16" width="480" height="480" rx="96" ry="96" />
+  
+  <!-- Main Group Centered -->
+  <g transform="translate(15, 0)">
+    <!-- Letter Q -->
+    <path class="text-blue" d="M 180 140 C 110 140 60 190 60 260 C 60 330 110 380 180 380 C 215 380 246 366 268 343 L 240 315 C 225 330 204 340 180 340 C 135 340 102 305 102 260 C 102 215 135 180 180 180 C 225 180 258 215 258 260 C 258 275 254 290 246 302 L 276 332 C 291 312 300 287 300 260 C 300 190 250 140 180 140 Z" />
+    
+    <!-- Letter L -->
+    <path class="text-blue" d="M 320 148 L 320 372 L 420 372 L 420 328 L 364 328 L 364 148 Z" />
+    
+    <!-- Mouse Cursor Icon Integration into Q -->
+    <path class="cursor-orange" d="M 220 250 L 220 350 L 252 318 L 278 370 L 302 358 L 276 306 L 320 306 Z" />
+  </g>
+</svg>
